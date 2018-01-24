@@ -28,7 +28,7 @@
 }
 
 
-ul {
+ul{
   font-size: 1.143em;
   height: 50px;
   margin: 0 auto 2em auto;
@@ -43,7 +43,7 @@ ul {
   background: hsla(200, 60%, 50%, 0.65);
   text-shadow: none !important;
 }
-li{
+#menu{
   background:  rgba(192,192,192,0.9)
 }
 
@@ -89,13 +89,15 @@ li{
 .srch{
     margin: 10px 0 15px 0;
 }
-.busqueda , li:hover{
+.busqueda , #busqueda:hover{
   font-size: 1.143em;
   height: 40px;
   margin: 0 auto 0 auto;
   padding: 0;
   width: 100%;
   background-color: #ffffff !important;
+}
+.busqueda , #busqueda{
   border: 1px solid black;
   border-radius: 5px;
 }
