@@ -1,0 +1,27 @@
+body{
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+.principal{
+  background-color: rgba(239, 183, 143, 0.4)
+}
+
+.encabezado{
+  border-right: 1px solid black;
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: left;
+}
+
+h4{
+  text-align: right;
+  font-style: italic;
+}
