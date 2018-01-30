@@ -9,7 +9,7 @@ body{
 }
 
 .principal{
-  background-color: rgba(239, 183, 143, 0.4)
+  background-color: rgba(51, 99, 255, 0.6);
 }
 
 .encabezado{
@@ -24,4 +24,43 @@ h1{
 h4{
   text-align: right;
   font-style: italic;
+}
+
+.menus{
+  background-color: rgba(230, 236, 255, 0.8);
+}
+.links{
+  margin-bottom: 0;
+}
+.comida{
+  margin-left: 1vw;
+}
+.fav{
+  width: 30%;
+  height: 100px;
+  padding: 2%;
+}
+li{
+  list-style: none;
+  margin: 2vh 0 2vh 0;
+}
+h5{
+  margin-top: 2vh;
+}
+.bk{
+  margin: 0 8px 0 8px;
+}
+
+.contenido{
+  background-color: rgba(255, 212, 128, 0.9);
+}
+
+hr {
+margin-top: 1px;
+margin-bottom: 5px;
+}
+
+.search{
+  margin-left: 15px;
+  padding-left: 25px;
 }
