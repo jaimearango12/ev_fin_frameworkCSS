@@ -64,3 +64,56 @@ margin-bottom: 5px;
   margin-left: 15px;
   padding-left: 25px;
 }
+
+.muestra{
+  width: 100%;
+}
+
+p{
+  padding: auto;
+  margin: auto;
+  text-align: justify;:
+}
+
+form{
+  text-align: left;
+  margin:auto 1% 0 auto;
+}
+
+textarea{
+  margin-bottom: 0;
+}
+#buscar{
+  margin-left: 87%;
+  margin-top: 0;
+}
+.fecha{
+  padding-left: 1vw;
+}
+#personajes{
+  width: 80%;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+#comentarios{
+  border: 1px solid black;
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
+@media (max-width: 600px) {
+  #buscar{
+    margin-left: 75%;
+    margin-top: 0;
+  }
+  #personajes{
+    width: 20vw;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .fecha{
+    padding-left: 4vw;
+  }
+}
